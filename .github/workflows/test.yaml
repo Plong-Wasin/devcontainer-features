@@ -13,8 +13,8 @@ jobs:
         strategy:
             matrix:
                 features:
-                    - color
-                    - hello
+                    - opencommit
+                    - vim
                 baseImage:
                     - debian:latest
                     - ubuntu:latest
